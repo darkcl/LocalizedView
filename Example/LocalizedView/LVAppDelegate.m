@@ -5,14 +5,18 @@
 //  Created by Yeung Yiu Hung on 02/19/2016.
 //  Copyright (c) 2016 Yeung Yiu Hung. All rights reserved.
 //
-
 #import "LVAppDelegate.h"
+#import "LVRootViewController.h"
 
 @implementation LVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    LVRootViewController *rootVC = [[LVRootViewController alloc] initWithNibName:@"LVRootViewController" bundle:nil];
+    [self.window setRootViewController:rootVC];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

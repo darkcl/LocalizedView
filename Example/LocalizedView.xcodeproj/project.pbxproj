@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		01CCD503FA0EB8DFB2ACA952 /* libPods-LocalizedView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCB9F71E00FE54B9F1B4225 /* libPods-LocalizedView_Tests.a */; };
+		0E0C4B961C770B6700FDE2A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C4B981C770B6700FDE2A8 /* Localizable.strings */; };
+		0E0C4B9D1C770E5A00FDE2A8 /* LVRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C4B9B1C770E5A00FDE2A8 /* LVRootViewController.m */; };
+		0E0C4B9E1C770E5A00FDE2A8 /* LVRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C4B9C1C770E5A00FDE2A8 /* LVRootViewController.xib */; };
+		0E0C4BA01C770E8000FDE2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0C4B9F1C770E8000FDE2A8 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LVAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LVViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A62CDF4D5666DFC3C1B423DC /* libPods-LocalizedView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECD54B2C44CABB0BCEBB4F0 /* libPods-LocalizedView_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0C4B941C770B5600FDE2A8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0E0C4B951C770B5600FDE2A8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0E0C4B971C770B6700FDE2A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0E0C4B991C770B6A00FDE2A8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0E0C4B9A1C770E5A00FDE2A8 /* LVRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVRootViewController.h; sourceTree = "<group>"; };
+		0E0C4B9B1C770E5A00FDE2A8 /* LVRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRootViewController.m; sourceTree = "<group>"; };
+		0E0C4B9C1C770E5A00FDE2A8 /* LVRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVRootViewController.xib; sourceTree = "<group>"; };
+		0E0C4B9F1C770E8000FDE2A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E0C4BA11C770FA100FDE2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LocalizedView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +57,6 @@
 		6003F59B195388D20070C39A /* LocalizedView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizedView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LocalizedView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizedView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,7 +65,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		72C9FBF5D2B8CF0D29E7740C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8BD7698AF1C7F9254E2F5595 /* Pods-LocalizedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizedView_Tests/Pods-LocalizedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95364E2827C485523D98DC69 /* LocalizedView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocalizedView.podspec; path = ../LocalizedView.podspec; sourceTree = "<group>"; };
 		9C75148A94F76143DF2F7D41 /* Pods-LocalizedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizedView_Tests/Pods-LocalizedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,11 +140,12 @@
 			children = (
 				6003F59C195388D20070C39A /* LVAppDelegate.h */,
 				6003F59D195388D20070C39A /* LVAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LVViewController.h */,
-				6003F5A6195388D20070C39A /* LVViewController.m */,
+				0E0C4B9A1C770E5A00FDE2A8 /* LVRootViewController.h */,
+				0E0C4B9B1C770E5A00FDE2A8 /* LVRootViewController.m */,
+				0E0C4B9C1C770E5A00FDE2A8 /* LVRootViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				0E0C4B9F1C770E8000FDE2A8 /* LaunchScreen.storyboard */,
 			);
 			name = "Example for LocalizedView";
 			path = LocalizedView;
@@ -149,6 +158,7 @@
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* LocalizedView-Prefix.pch */,
+				0E0C4B981C770B6700FDE2A8 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -259,6 +269,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -276,8 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				0E0C4B961C770B6700FDE2A8 /* Localizable.strings in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0E0C4B9E1C770E5A00FDE2A8 /* LVRootViewController.xib in Resources */,
+				0E0C4BA01C770E8000FDE2A8 /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,8 +403,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0C4B9D1C770E5A00FDE2A8 /* LVRootViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +428,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0E0C4B981C770B6700FDE2A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0C4B971C770B6700FDE2A8 /* en */,
+				0E0C4B991C770B6A00FDE2A8 /* zh-Hant */,
+				0E0C4BA11C770FA100FDE2A8 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
+				0E0C4B941C770B5600FDE2A8 /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -427,6 +451,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
+				0E0C4B951C770B5600FDE2A8 /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -512,7 +537,6 @@
 			baseConfigurationReference = A6129D06BBEBDB7291AD49FC /* Pods-LocalizedView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalizedView/LocalizedView-Prefix.pch";
 				INFOPLIST_FILE = "LocalizedView/LocalizedView-Info.plist";
@@ -528,7 +552,6 @@
 			baseConfigurationReference = AB710F11BA3C31F39267956D /* Pods-LocalizedView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalizedView/LocalizedView-Prefix.pch";
 				INFOPLIST_FILE = "LocalizedView/LocalizedView-Info.plist";

@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LocalizedView
+
+  Created by Yeung Yiu Hung on 19/2/16.
+  Copyright © 2016 Yeung Yiu Hung. All rights reserved.
+*/
+
+/********** Setting **********/
+
+"setting_detail_title" = "設定";
+
+"setting_current_language" = "繁體中文";
+
+"setting_language_indicator" = "改變語言";
