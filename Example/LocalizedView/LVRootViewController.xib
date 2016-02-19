@@ -71,6 +71,14 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedKey" value="long_text"/>
                     </userDefinedRuntimeAttributes>
                 </textView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="KZI-Lx-sYh">
+                    <rect key="frame" x="0.0" y="362" width="320" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceHolderKey" value="text_field_placeholder"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedPromptKey" value="search_prompt"/>
+                    </userDefinedRuntimeAttributes>
+                </searchBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -82,9 +90,12 @@
                 <constraint firstItem="oeT-XI-qJS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VxA-he-iDw"/>
                 <constraint firstItem="Bz5-g7-nmP" firstAttribute="top" secondItem="Qoa-lf-YrB" secondAttribute="bottom" constant="8" id="XXX-bo-D0f"/>
                 <constraint firstItem="w4f-zU-Jul" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="b7C-nh-EPT"/>
+                <constraint firstItem="KZI-Lx-sYh" firstAttribute="top" secondItem="Bz5-g7-nmP" secondAttribute="bottom" id="cNY-zP-qfw"/>
                 <constraint firstItem="tVj-gd-vmo" firstAttribute="top" secondItem="oeT-XI-qJS" secondAttribute="bottom" constant="38" id="cx8-Lf-r57"/>
                 <constraint firstItem="tVj-gd-vmo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="igC-z6-EHx"/>
                 <constraint firstAttribute="trailing" secondItem="Bz5-g7-nmP" secondAttribute="trailing" constant="28" id="jBd-b4-ygi"/>
+                <constraint firstAttribute="trailing" secondItem="KZI-Lx-sYh" secondAttribute="trailing" id="lEE-ZL-lZW"/>
+                <constraint firstItem="KZI-Lx-sYh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tFG-6s-xVE"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="72" y="374"/>

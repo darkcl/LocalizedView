@@ -14,6 +14,7 @@
 #import "UILabel+AppLocale.h"
 #import "UITextField+AppLocale.h"
 #import "UITextView+AppLocale.h"
+#import "UISearchBar+AppLocale.h"
 
 #import "UIViewController+AppLocale.h"
 #import "LocalizationSystem.h"

@@ -19,3 +19,5 @@
 "text_field" = "I am a text field";
 
 "text_field_placeholder" = "I am a place holder";
+
+"search_prompt" = "I am a prompt";

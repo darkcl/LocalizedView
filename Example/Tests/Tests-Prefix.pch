@@ -2,7 +2,6 @@
 
 #ifdef __OBJC__
 
-  @import Kiwi;
-  @import FBSnapshotTestCase;
+#import <Kiwi/Kiwi.h>
 
 #endif

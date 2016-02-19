@@ -19,3 +19,5 @@
 "text_field" = "我是一個文本字段";
 
 "text_field_placeholder" = "我是一個佔位符";
+
+"search_prompt" = "我是一個提示";
