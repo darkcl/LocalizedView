@@ -29,8 +29,12 @@ Setting up application specific localized string within xib file.
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
+  pch_LV = <<-EOS
+#import "LocalizedView.h"
+EOS
+  s.prefix_header_contents = pch_LV
   s.source_files = 'Pod/Classes/**/*'
+  
   s.resource_bundles = {
     'LocalizedView' => ['Pod/Assets/*.png']
   }
