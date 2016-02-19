@@ -1,6 +1,6 @@
 # LocalizedView
 
-[![CI Status](http://img.shields.io/travis/Yeung Yiu Hung/LocalizedView.svg?style=flat)](https://travis-ci.org/darkcl/LocalizedView)
+[![CI Status](https://travis-ci.org/darkcl/LocalizedView.svg?branch=master)](https://travis-ci.org/darkcl/LocalizedView)
 [![Version](https://img.shields.io/cocoapods/v/LocalizedView.svg?style=flat)](http://cocoapods.org/pods/LocalizedView)
 [![License](https://img.shields.io/cocoapods/l/LocalizedView.svg?style=flat)](http://cocoapods.org/pods/LocalizedView)
 [![Platform](https://img.shields.io/cocoapods/p/LocalizedView.svg?style=flat)](http://cocoapods.org/pods/LocalizedView)
