@@ -10,7 +10,7 @@
 
 @interface UIViewController (AppLocale)
 
-- (void)setUpLocalizationString;
+- (void)setUpLocalizationString NS_REQUIRES_SUPER;
 
 @property (readwrite) IBInspectable BOOL isSetupLocaleByXib;
 

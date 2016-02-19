@@ -17,11 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    LocalizationSetLanguage(@"en");
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)setUpLocalizationString{
+    [super setUpLocalizationString];
 }
 
 - (IBAction)changeButtonPressed:(id)sender {

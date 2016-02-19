@@ -13,6 +13,10 @@ static void * LocalizedPropertKey = &LocalizedPropertKey;
 
 @implementation UIView (AppLocale)
 
+- (void)setLocalizedString{
+    
+}
+
 - (NSString *)localizedKey {
     return objc_getAssociatedObject(self, LocalizedPropertKey);
 }

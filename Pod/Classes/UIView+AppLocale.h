@@ -10,6 +10,8 @@
 
 @interface UIView (AppLocale)
 
+- (void)setLocalizedString;
+
 @property (nonatomic, strong) IBInspectable NSString *localizedKey;
 
 @end

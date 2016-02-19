@@ -10,6 +10,11 @@
 #define LocalizedView_h
 
 #import "UIView+AppLocale.h"
+#import "UIButton+AppLocale.h"
+#import "UILabel+AppLocale.h"
+#import "UITextField+AppLocale.h"
+#import "UITextView+AppLocale.h"
+
 #import "UIViewController+AppLocale.h"
 #import "LocalizationSystem.h"
 

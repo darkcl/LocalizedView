@@ -66,15 +66,7 @@ static void * SetupLocalizedStringWithKeyPropertKey = &SetupLocalizedStringWithK
 }
 
 - (void)setUpLocalizationStringForView:(UIView *)aView{
-    if ([aView respondsToSelector:@selector(localizedKey)] && aView.localizedKey.length != 0) {
-        if ([aView isKindOfClass:[UILabel class]]) {
-            UILabel *aLabel = (UILabel *)aView;
-            aLabel.text = AMLocalizedString(aView.localizedKey, nil);
-        }else if([aView isKindOfClass:[UIButton class]]){
-            UIButton *aButton = (UIButton *)aView;
-            [aButton setTitle:AMLocalizedString(aView.localizedKey, nil) forState:UIControlStateNormal];
-        }
-    }
+    [aView setLocalizedString];
     
     for (UIView *subview in aView.subviews) {
         [self setUpLocalizationStringForView:subview];
