@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 Setting up application specific localized string within xib file.
+Localization is done by AMLocalizedString
                        DESC
 
   s.homepage         = "https://github.com/darkcl/LocalizedView"
