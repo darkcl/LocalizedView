@@ -98,7 +98,7 @@
                 <constraint firstItem="KZI-Lx-sYh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tFG-6s-xVE"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="72" y="374"/>
+            <point key="canvasLocation" x="69" y="236"/>
         </view>
     </objects>
 </document>
