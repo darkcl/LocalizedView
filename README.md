@@ -37,3 +37,7 @@ Yeung Yiu Hung, hkclex@gmail.com
 ## License
 
 LocalizedView is available under the MIT license. See the LICENSE file for more info.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/darkcl/localizedview/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
