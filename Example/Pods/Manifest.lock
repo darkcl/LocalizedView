@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi (2.4.0)
+  - LocalizedView (0.1.0)
+
+DEPENDENCIES:
+  - Kiwi
+  - LocalizedView (from `../`)
+
+EXTERNAL SOURCES:
+  LocalizedView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  LocalizedView: 6822632905f32f993850924d3ac9e6fd7cf7fa3e
+
+COCOAPODS: 0.39.0

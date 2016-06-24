@@ -84,9 +84,9 @@ static NSBundle *bundle = nil;
 	
 	NSString *path = [[ NSBundle mainBundle ] pathForResource:l ofType:@"lproj" ];
 	
-    if ([l isEqualToString:@"en"]) {
-        path = [[ NSBundle mainBundle ] pathForResource:@"Base" ofType:@"lproj" ];
-    }
+//    if ([l isEqualToString:@"en"]) {
+//        path = [[ NSBundle mainBundle ] pathForResource:@"Base" ofType:@"lproj" ];
+//    }
     if (path == nil) {
 		//in case the language does not exists
 		[self resetLocalization];

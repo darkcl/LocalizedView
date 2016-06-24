@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/UITextView+AppLocale.h

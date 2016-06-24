@@ -8,20 +8,26 @@
 
 // https://github.com/kiwi-bdd/Kiwi
 
+#import <LocalizedView/LocalizedView.h>
+#import "LVRootViewController.h"
+
 SPEC_BEGIN(InitialTests)
 
 describe(@"My initial tests", ^{
     context(@"will pass", ^{
+        LVRootViewController *viewController = [[LVRootViewController alloc] initWithNibName:@"LVRootViewController" bundle:nil];
+        
+        
+        it(@"should be set localized string with xib", ^{
+            NSLog(@"Testing : %@", AMLocalizedString(@"setting_detail_title", nil));
+            [[[NSNumber numberWithBool:viewController.isSetupLocaleByXib] should] beYes];
+        });
+        
+        it(@"can read", ^{
+            [[@"team" shouldNot] containString:@"I"];
+        });
+    });
     
-      it(@"can do maths", ^{
-        [[@1 should] beLessThan:@23];
-      });
-    
-      it(@"can read", ^{
-          [[@"team" shouldNot] containString:@"I"];
-      });  
-  });
-  
 });
 
 SPEC_END
